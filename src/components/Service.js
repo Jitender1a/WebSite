@@ -1,15 +1,24 @@
-// Jade is working on this
-
 import React, { Component } from 'react'
+import PageHeader from './PageHeader'
 
 export default class Service extends Component {
+  constructor(){
+    super()
+    this.state={
+      pageName:"Services",
+      pageHeadline: "We Do Development",
+      pageText: "Our diverse cross-funcational team has a set of skills that always fits your wants and needs. Weather it is creating quality code, a great looking design or reaching the limiations of online marketing."
+    }
+  }
   render() {
     return (
       <div>
-          <div className='ServiceIntro'> We Do Development
-              <p>Our diverse cross-funcational team has a set of skills that always fits your wants and needs. Weather it is creating quality code, a great looking design or reaching the limiations of online marketing.</p>
-          </div>
 
+      <PageHeader
+      pageName={this.state.pageName}
+      pageHeadline= {this.state.pageHeadline}
+      pageText= {this.state.pageText}
+      />
             <br/>
 
           <div className='development'> Development

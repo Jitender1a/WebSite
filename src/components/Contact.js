@@ -12,16 +12,20 @@ export default class Contact extends Component {
       {/* contact info */}
         <div>
           <p>
+            Address line 1
           </p>
           <p>
+            City State
           </p>
           <p>
+            phone
           </p>
           <p>
+            email
           </p>
         </div>
                 {/* copyright */}
-                <div><p></p></div>
+                <div><p>copyright {new Date().getFullYear()}</p></div>
                 {/* contact form */}
                 <div>
                   {/* name */}
