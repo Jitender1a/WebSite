@@ -8,11 +8,6 @@ export default class PageHeader extends Component {
           <h1>{this.props.pageName}</h1>
           <div>{this.props.pageHeadline}</div>
           <div>{this.props.pageText}</div>
-
-
-
-
-
       </div>
     )
   }
