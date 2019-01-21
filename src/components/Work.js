@@ -11,22 +11,22 @@ export default class Work extends Component {
       work:[
         {
           backgroundImage:'',
-          title: 'Custom ecommerc',
-          details: 'lorem ipsum asdkfasd fas df asdf a sdf afd sa',
+          title: 'Adventure Squad',
+          details: 'Group travel planner',
           primaryImage:'',
           link:''
         },
         {
           backgroundImage:'',
-          title: 'Sopify Apps',
-          details: 'lorem ipsum asdkfasd fas df asdf a sdf afd sa',
+          title: 'The Photo Alphabet',
+          details: 'An ecommerce site for letter photography',
           primaryImage:'',
           link:''
 
         },
         {backgroundImage:'',
           title: 'Chat',
-          details: 'lorem ipsum asdkfasd fas df asdf a sdf afd sa',
+          details: 'An in company chat service',
           primaryImage:'',
           link:''
 
@@ -34,7 +34,7 @@ export default class Work extends Component {
         {
           backgroundImage:'',
           title: 'Video player',
-          details: 'lorem ipsum asdkfasd fas df asdf a sdf afd sa',
+          details: 'Personal video streaming service for google drive',
           primaryImage:'',
           link:''
 

@@ -13,10 +13,10 @@ export default class Service extends Component {
             <br/>
 
           <div className='development'> Development
-              <p>By using the latest technology we write smart code to develope the latest digital products.</p>
+              <p>By using the latest technology we write smart code to develop the latest digital products.</p>
           </div>
           <ul className='devtTypes'>
-            <li>E-commerce solutions(Shopify)</li>
+            <li>E-commerce solutions (Shopify)</li>
             <li>CMS (WordPress, Shopfiy & Squarespace)</li>
             <li>Landing Pages</li>
             <li>Corporate/Institutional websites</li>
