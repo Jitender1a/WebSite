@@ -7,10 +7,11 @@ export default class Quote extends Component {
 {/* Display important text */}
 <div class="">
 <p class="">
-Something that we want to highlight
-
+{this.props.quote}
 </p>
-<p class="">reference if we want</p>
+<p class="">
+{this.props.reference}
+</p>
 </div>
 
 

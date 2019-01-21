@@ -10,22 +10,33 @@ export default class Work extends Component {
       pageText: "if you don't believe us fuck you",
       work:[
         {
+          backgroundImage:'',
           title: 'Custom ecommerc',
-          details: 'lorem ipsum asdkfasd fas df asdf a sdf afd sa'
+          details: 'lorem ipsum asdkfasd fas df asdf a sdf afd sa',
+          primaryImage:'',
+          link:''
         },
         {
+          backgroundImage:'',
           title: 'Sopify Apps',
-          details: 'lorem ipsum asdkfasd fas df asdf a sdf afd sa'
+          details: 'lorem ipsum asdkfasd fas df asdf a sdf afd sa',
+          primaryImage:'',
+          link:''
 
         },
-        {
+        {backgroundImage:'',
           title: 'Chat',
-          details: 'lorem ipsum asdkfasd fas df asdf a sdf afd sa'
+          details: 'lorem ipsum asdkfasd fas df asdf a sdf afd sa',
+          primaryImage:'',
+          link:''
 
         },
         {
+          backgroundImage:'',
           title: 'Video player',
-          details: 'lorem ipsum asdkfasd fas df asdf a sdf afd sa'
+          details: 'lorem ipsum asdkfasd fas df asdf a sdf afd sa',
+          primaryImage:'',
+          link:''
 
         }
       ]
@@ -46,13 +57,10 @@ export default class Work extends Component {
         pageName={this.state.pageName}
         pageHeadline= {this.state.pageHeadline}
         pageText= {this.state.pageText}
-        // page.title = {this.state.title}
-        // page.details = {this.state.details}
         />
-
         {/* map over work bringing in json data* stored on state*/}
 
-{works}
+        {works}
 
 
 
