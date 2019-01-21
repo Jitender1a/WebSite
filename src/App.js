@@ -7,7 +7,7 @@ import Contact from './components/Contact'
 import Home from './components/Home'
 import Service from './components/Service'
 import Work from './components/Work'
-
+import PageHeader from './components/PageHeader'
 
 
 class App extends Component {
@@ -19,7 +19,8 @@ class App extends Component {
             <Route path='/Contact' component={Contact}/>
             <Route path='/About' component={About}/>
             <Route path='/Service' component={Service}/>
-           <Route path='/Work' component={Work}/>
+            <Route path='/Work' component={Work}/>
+            <Route path='/PageHeader' component={PageHeader}/>
         </Switch>
       </div>
     );
