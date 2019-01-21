@@ -23,7 +23,7 @@ class App extends Component {
             <Route path='/Work' component={Work}/>
             <Route path='/PageHeader' component={PageHeader}/>
         </Switch>
-        <Route path='/Contact' component={Contact}/>
+        <Contact/>
 
       </div>
     );
